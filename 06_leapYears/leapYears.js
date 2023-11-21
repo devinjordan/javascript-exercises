@@ -1,4 +1,5 @@
 const leapYears = function(year) {
+  // leap years are divisible by four (400 if they're divisible by 100).
   switch (year % 100 === 0) {
     case (false):
       if (year % 4 === 0) {
